@@ -13,72 +13,52 @@ A simple 2D platformer game created using Pygame, featuring a player navigating 
 2. Pygame library
 
 ## Setup
-**Clone the Repository**
+**Clone the repository:**
 
-bash
+```sh
 Copy code
-git clone <repository-url>
-Navigate to the Project Directory
+git clone https://github.com/At0mSsS-Cyber/my_platformer_game
+```
 
-bash
-Copy code
-cd path/to/your/platform-game
-Set Up a Virtual Environment (Optional but recommended)
+**Navigate to the Project Directory**
 
-bash
-Copy code
+```sh
+cd my_platformer_game
+```
+
+**Set Up a Virtual Environment (Optional but recommended)**
+
+```sh
 python -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-Install Dependencies
+```
 
-Ensure you have pygame installed. You can install it using pip:
+#### Install Dependencies
 
-bash
-Copy code
+**Ensure you have pygame installed. You can install it using pip:**
+
+```sh
 pip install pygame
-Usage
-Run the Game
+```
 
-Ensure you are in the project directory and run:
+#### Usage
+**Ensure you are in the project directory and run:**
 
-bash
-Copy code
+```sh
 python game.py
-Game Controls
+```
 
-Arrow Keys: Move the player
-R: Retry the game after a failure or victory
-Quit: Close the game window
-Game Objectives
+#### Game Controls
 
-Avoid colliding with moving obstacles to continue.
-Reach the bottom of the screen to win the game.
-Code Overview
-game.py: Main game loop and logic. Handles player movement, obstacle updates, collision detection, and game state management.
-player.py: Contains the Player class for handling player sprite and movement.
-platform.py: Contains the Platform class for creating and managing obstacles.
-Contributing
-Fork the Repository: Create your own fork of the repository on GitHub.
+**Arrow Keys:** Move the player
+**R:** Retry the game after a failure or victory
+**Quit:** Close the game window
 
-Create a Branch: Create a new branch for your changes.
+#### Game Objectives
 
-bash
-Copy code
-git checkout -b feature/your-feature
-Make Changes: Implement your changes or new features.
+**Avoid colliding with moving obstacles to continue.**
+**Reach the bottom of the screen to win the game.**
 
-Commit Your Changes:
 
-bash
-Copy code
-git add .
-git commit -m "Add feature or fix issue"
-Push to Your Fork:
-
-bash
-Copy code
-git push origin feature/your-feature
-Create a Pull Request: Submit a pull request on GitHub to merge your changes.
-
-License
+#### License
 This project is licensed under the MIT License - see the LICENSE file for details.
